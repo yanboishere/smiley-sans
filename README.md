@@ -8,6 +8,9 @@
 
 得意黑是一款在人文观感和几何特征中寻找平衡的中文黑体。整体字身窄而斜，细节融入了取法手绘美术字的特殊造型。字体支持简体中文常用字（覆盖 [GB/T 2312-1980](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=5664A728BD9D523DE3B99BC37AC7A2CC) 编码字符集）、拉丁字母、日文假名、阿拉伯数字和各类标点符号。
 
+## 视频介绍
+[Bilibili](https://www.bilibili.com/video/BV1sP411g7PZ)
+
 ## 下载安装
 
 - 点击 [Releases](https://github.com/atelier-anchor/smiley-sans/releases) 可直接下载安装文件包，其中包含 4 个字体文件：
