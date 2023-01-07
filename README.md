@@ -6,7 +6,7 @@
 [![Build Status](https://github.com/atelier-anchor/smiley-sans/workflows/build/badge.svg)](https://github.com/atelier-anchor/smiley-sans/actions)
 [![GitHub release](https://img.shields.io/github/release/atelier-anchor/smiley-sans/all.svg)](https://github.com/atelier-anchor/smiley-sans/releases/latest)
 
-得意黑是一款在人文观感和几何特征中寻找平衡的中文黑体。整体字身窄而斜，细节融入了取法手绘美术字的特殊造型。字体支持简体中文常用字（覆盖 [GB/T 2312-1980](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=5664A728BD9D523DE3B99BC37AC7A2CC) 编码字符集）、拉丁字母、日文假名、阿拉伯数字和各类标点符号。
+得意黑是一款在人文观感和几何特征中寻找平衡的中文黑体。整体字身窄而斜，细节融入了取法手绘美术字的特殊造型。字体支持简体中文常用字（覆盖 [GB/T 2312-1980](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=5664A728BD9D523DE3B99BC37AC7A2CC) 编码字符集）、拉丁字母、西里尔字母、希腊字母、日文假名、阿拉伯数字和各类标点符号。
 
 ## 视频介绍
 [Bilibili](https://www.bilibili.com/video/BV1sP411g7PZ)
@@ -25,28 +25,29 @@
       brew tap homebrew/cask-fonts  # 只需要在第一次安装时执行
       brew install font-smiley-sans
       ```
+  - Linux
+    - Arch Linux 可以从 [AUR](https://aur.archlinux.org) 获取并安装：
+      ```bash
+      yay -S ttf-smiley-sans  # 从源码编译安装发行版
+      yay -S ttf-smiley-sans-bin  # 从二进制发行版安装
+      yay -S ttf-smiley-sans-git  # 从源码编译安装开发版
+      ```
   - [Adobe](https://glyphsapp.com/zh/learn/testing-your-fonts-in-adobe-apps)
   - [Office](https://support.microsoft.com/zh-cn/office/下载和安装自定义字体以便在-office-中使用-0ee09e74-edc1-480c-81c2-5cf9537c70ce)
   - [Procreate](https://procreate.art/cn/handbook/procreate/text/text-fonts/)
 - 如需预览得意黑的设计，可以[下载样张](docs/smiley-sans-specimen.pdf)。
 
-## 字符集支持
+## 字符支持
 
-### 汉字（中国大陆）
-
-- 字体覆盖 [GB/T 2312-1980](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=5664A728BD9D523DE3B99BC37AC7A2CC) 编码字符集中的全部 6763 个汉字，并额外补充了 `啰`、`喰`、`瞭`、`𬌗` 4 个字，共计支持汉字 6767 个。
-
-### 拉丁字母
-
-- 除基础拉丁字母外，覆盖欧洲、美洲、南亚各种语言所需的字符共 415 个，另加入必要的变体和本地化字形，可支持 100 余种语言，包括英语、法语、德语、西班牙语、芬兰语、越南语等等。
-
-### 日文假名
-
-- 支持平假名、片假名字符共 174 个。
-
-### 数字及标点符号
-
-- 支持阿拉伯数字、大小写罗马数字，以及其他 4 种样式的序数字 `㈠`、`②`、`⑶` 和 `⒋`。标点符号和其他各类符号共 200 余个。
+| 文字 | 支持情况 |
+|:-:|:-:|
+| 汉字       | 字体覆盖 [GB/T 2312-1980](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=5664A728BD9D523DE3B99BC37AC7A2CC) 编码字符集中的全部 6763 个汉字，并额外补充了 `啰`、`喰`、`瞭`、`𬌗` 4 个字，共计支持汉字 6767 个 |
+| 拉丁字母   | 除基础拉丁字母外，覆盖欧洲、美洲、南亚各种语言所需的字符共 415 个，另加入必要的变体和本地化字形，可支持 100 余种语言，包括英语、法语、德语、西班牙语、芬兰语、越南语等 |
+| 西里尔字母 | 支持基础西里尔字母共 80 个 |
+| 希腊字母   | 支持基础希腊字母共 71 个 |
+| 日文假名   | 支持平假名、片假名字符共 174 个 |
+| 数字       | 支持阿拉伯数字、大小写罗马数字，以及其他 4 种样式的序数字 `㈠`、`②`、`⑶` 和 `⒋` |
+| 标点符号   | 包含标点和其他各类符号共 200 余个 |
 
 ## 注意事项
 
@@ -68,4 +69,4 @@
 
 ---
 
-Copyright &copy; 2022 by [atelierAnchor](https://atelier-anchor.com).
+Copyright © 2022–2023 [atelierAnchor](https://atelier-anchor.com). All rights reserved.
